@@ -40,6 +40,17 @@
 }
 
 @media screen and (max-width: 768px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills-heading {
+        width: 300px;
+    }
+
     .icons-section {
         grid-template: auto auto auto/ repeat(2, 1fr);
     }

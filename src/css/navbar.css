@@ -1,0 +1,87 @@
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 4rem;
+    background-color: #21222A;
+    padding: 1rem;
+    z-index: 10;
+}
+
+.navbar-home {
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.navbar-home:hover {
+    color: gray;
+}
+
+.navbar-menu > a{
+    color: gray;
+    font-size: x-large;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.navbar-line {
+    padding-right: 1rem;
+    border-right: 1px solid gray;
+}
+
+.navbar-menu > a:hover {
+    color:white;
+}
+
+.navbar-burger, .navbar-mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-burger {
+        display: flex;
+        color: gray;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .navbar-burger:hover {
+        color: white;
+    }
+
+    .navbar-mobile-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 200%;
+        left: 25%;
+        width: 50%;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 15%;
+    }
+
+    .navbar-mobile-menu > a {
+        font-size: xx-large;
+        color: white;
+        padding: 1rem 0;
+        cursor: pointer;
+    }
+
+    .navbar-mobile-menu > a:hover {
+        color: gray;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+}

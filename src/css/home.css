@@ -1,0 +1,126 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 8rem 2rem;
+}
+
+.home-left {
+    display:flex;
+    flex-direction: column;
+}
+
+.about > p {
+    color: rgb(179, 196, 255);
+    max-width: 700px;
+    min-width: none;
+}
+
+.about > h1 {
+    color: rgb(179, 196, 255);
+    font-size: 60px;
+}
+
+.about > h1 > mark {
+    color:rgb(51, 102, 255);
+    background: none;
+    transition: color 0.8s;
+}
+
+.about > h1 > mark:hover {
+    color: white;
+}
+
+.about > h2 {
+    color: white;
+    margin: 1rem 0;
+}
+
+.icon {
+    color: white;
+    margin-top: 3rem;
+}
+
+.icon > h2 > a {
+    color: white;
+}
+
+.icon > h2 > a:hover {
+    color: rgb(179, 196, 255);
+}
+
+.home-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portrait-container {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to left top, rgb(51, 102, 255), rgba(51, 102, 255, 0.01), rgb(51, 102, 255));
+    border-radius: 5%;
+    margin-left: 1rem;
+    transform: rotate(8deg);    
+    transition: transform 0.8s ease-in-out;
+}
+
+.portrait {
+    width: 250px;
+    border-radius: 5%;
+    transform: rotate(-8deg);    
+    transition: transform 0.8s ease;
+}
+
+.portrait-container:hover {
+    transform: rotate(-8deg);
+}
+
+.portrait:hover {
+    transform: rotate(8deg);    
+}
+
+
+.dl-btn {
+    width: 200px;
+    background-color: rgb(51, 102, 255);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.dl-btn:hover {
+    background-color: rgba(51, 102, 255, 0.5);
+}
+
+.dl-btn:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+    .about > h1 {
+        font-size: 40px;
+    }
+
+    .icon > h2 {
+        font-size: 1.2rem;
+    }
+
+    .portrait {
+        width: 200px;
+    }
+
+    .portrait-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .dl-btn {
+        margin-top: 5rem;
+    }
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;   
+  }
+
+body {
+    background-color: #282D35;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: gray;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(179, 196, 255);
+  border-radius: 20px;
+}

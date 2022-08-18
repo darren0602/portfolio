@@ -221,4 +221,9 @@
     .projects-heading {
         width: 300px;
     }
+
+    .projects-container {
+        width: 300px;
+        height: 250px;
+    }
 }

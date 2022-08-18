@@ -41,8 +41,13 @@
     margin-top: 3rem;
 }
 
+.icon > h2 {
+    display: flex;
+}
+
 .icon > h2 > a {
     color: white;
+    margin-left: 1rem;
 }
 
 .icon > h2 > a:hover {

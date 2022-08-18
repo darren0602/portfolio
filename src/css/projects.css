@@ -32,10 +32,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:auto;
+    min-width: 360px;
     height:350px;
     background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 9px;
+    border-radius: 10px;
 }
 
 .buttons {
@@ -223,6 +223,11 @@
     }
 
     .projects-container {
+        width: 300px;
+        height: 250px;
+    }
+
+    .projects-hovered {
         width: 300px;
         height: 250px;
     }

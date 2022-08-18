@@ -1,5 +1,6 @@
 .contact {
-    padding: 6rem;
+    padding: 0 6rem;
+    margin-bottom: 1rem;
     width: 100%;
     height: auto;
     color: rgb(179, 196, 255);
@@ -48,7 +49,6 @@
     cursor: pointer;
     border-radius: 20px;
     background-color: rgb(51, 102, 255);
-    margin-bottom: 1rem;
 }
 
 .contact-send:hover {
@@ -59,11 +59,6 @@
     box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (max-width: 1024px) {
-    /* .contact {
-        margin-top: 76rem;
-    } */
-}
 
 @media screen and (max-width: 768px) {
     .contact {

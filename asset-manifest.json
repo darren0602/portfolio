@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9abe8fdd.css",
+    "main.js": "/portfolio/static/js/main.51b5b454.js",
+    "static/media/weather-app.gif": "/portfolio/static/media/weather-app.e9d53fe53433c30bac3f.gif",
+    "static/media/tenzies.gif": "/portfolio/static/media/tenzies.bea4581fc973b7e3f04d.gif",
+    "static/media/budget-app.gif": "/portfolio/static/media/budget-app.a8724efa4430d1d2458f.gif",
+    "static/media/trivia-quiz.gif": "/portfolio/static/media/trivia-quiz.78411c3bece860720231.gif",
+    "static/media/weather-app.png": "/portfolio/static/media/weather-app.936564653fbebec2dd9e.png",
+    "static/media/Darren_Resume_2022.pdf": "/portfolio/static/media/Darren_Resume_2022.e1102c3219bbdab2b4e8.pdf",
+    "static/media/portrait.jpeg": "/portfolio/static/media/portrait.5889d9f9fa70164d24d1.jpeg",
+    "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/tenzies.png": "/portfolio/static/media/tenzies.45490a4925e59a2b97cd.png",
+    "static/media/trivia-quiz.png": "/portfolio/static/media/trivia-quiz.4b0e87248d1659079e4f.png",
+    "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/c.png": "/portfolio/static/media/c.95dd1264a42833312c82.png",
+    "static/media/budget-app.png": "/portfolio/static/media/budget-app.d0960b9d06eb4e391023.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio/index.html",
+    "main.9abe8fdd.css.map": "/portfolio/static/css/main.9abe8fdd.css.map",
+    "main.51b5b454.js.map": "/portfolio/static/js/main.51b5b454.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9abe8fdd.css",
+    "static/js/main.51b5b454.js"
+  ]
+}

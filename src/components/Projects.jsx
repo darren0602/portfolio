@@ -126,7 +126,7 @@ export default function Projects() {
                 {/* Display Budget additional info */}
                 {budgetInfo ? 
                 <div className="info-box">
-                    <div className='info-left' style={{backgroundImage:`url(${budgetGIF})`}}></div>
+                    <div className='info-left' style={{backgroundImage:`url(${budgetGIF})`, backgroundSize:'contain'}}></div>
                     <div className='info-right'>
                         <div className='info-close' onClick={() => setBudgetInfo(false)}><FaTimes/></div>
                         <h1>Budget Planner</h1>
@@ -168,7 +168,7 @@ export default function Projects() {
                 {/* Display Weather additional info */}
                 {weatherInfo ? 
                 <div className="info-box">
-                    <div className='info-left' style={{backgroundImage:`url(${weatherGIF})`}}></div>
+                    <div className='info-left' style={{backgroundImage:`url(${weatherGIF})`, backgroundSize:'contain'}}></div>
                     <div className='info-right'>
                         <div className='info-close' onClick={() => setWeatherInfo(false)}><FaTimes /></div>
                         <h1>Weather App</h1>

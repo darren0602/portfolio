@@ -88,11 +88,11 @@
 }
 
 .info-left {
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 70%;
-    min-width: 400px;
+    min-width: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -101,6 +101,35 @@
     width:30%;
     height:auto;
     padding: 1rem;
+}
+
+.info-right > h1 {
+    width: 95%;
+}
+
+.info-right > p {
+    color:white;
+    text-align:left;
+    font-size: 1rem;
+    overflow: auto;
+    width:fit-content;
+    height: 35vh;
+    margin: 1rem 0;
+}
+
+.info-right > p::-webkit-scrollbar {
+    width: 6px;
+}
+
+.info-right > p::-webkit-scrollbar-track {
+    background: gray;
+    border-radius: 20px;
+
+}
+
+.info-right > p::-webkit-scrollbar-thumb {
+    background: rgb(179, 196, 255);
+    border-radius: 20px;
 }
 
 .info-close {
@@ -146,30 +175,7 @@
     padding: 0.4rem;
 }
 
-.info-right > p {
-    color:white;
-    text-align:left;
-    font-size: 1rem;
-    overflow: auto;
-    width:fit-content;
-    height: 35vh;
-    margin: 1rem 0;
-}
 
-.info-right > p::-webkit-scrollbar {
-    width: 6px;
-}
-
-.info-right > p::-webkit-scrollbar-track {
-    background: gray;
-    border-radius: 20px;
-
-}
-
-.info-right > p::-webkit-scrollbar-thumb {
-    background: rgb(179, 196, 255);
-    border-radius: 20px;
-}
 
 @media screen and (max-width: 1024px) {
     .projects-section {
@@ -180,8 +186,8 @@
         display: flex;
         position: fixed;
         top: 5%;
-        left: 12.5%;
-        width: 75%;
+        left: 10%;
+        width: 80%;
         height: 90vh;
         border-radius: 10px;
         z-index:11;
@@ -206,7 +212,6 @@
 
     .info-tech {
         grid-template: auto / repeat(4, 1fr);
-        font-size: 1.3rem;
     }
 }
 
@@ -230,5 +235,15 @@
     .projects-hovered {
         width: 300px;
         height: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .info-tech {
+        font-size: 1.1rem;
+    }
+
+    .info-right > p {
+        height: 22vh;
     }
 }

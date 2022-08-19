@@ -13,7 +13,7 @@ export default function Home() {
                     <h1>I'm <mark>Darren</mark> Teoh</h1>
                     <h2>an aspiring Front End Developer.</h2>
                     <p>
-                        I'm a self-taught front end React developer and an electrical &#38; computer systems engineer graduate.
+                        I'm a self-taught front end React developer and an Electrical &#38; Computer Systems Engineer graduate.
                         <br></br>
                         I enjoy building responsive and dynamic web applications.
                     </p>

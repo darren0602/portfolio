@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a044c196.css",
-    "main.js": "/portfolio/static/js/main.61fd6b43.js",
+    "main.css": "/portfolio/static/css/main.c4bbf286.css",
+    "main.js": "/portfolio/static/js/main.1d68f021.js",
     "static/media/weather-app.gif": "/portfolio/static/media/weather-app.e9d53fe53433c30bac3f.gif",
     "static/media/tenzies.gif": "/portfolio/static/media/tenzies.bea4581fc973b7e3f04d.gif",
     "static/media/budget-app.gif": "/portfolio/static/media/budget-app.a8724efa4430d1d2458f.gif",
@@ -19,11 +19,11 @@
     "static/media/budget-app.png": "/portfolio/static/media/budget-app.d0960b9d06eb4e391023.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.a044c196.css.map": "/portfolio/static/css/main.a044c196.css.map",
-    "main.61fd6b43.js.map": "/portfolio/static/js/main.61fd6b43.js.map"
+    "main.c4bbf286.css.map": "/portfolio/static/css/main.c4bbf286.css.map",
+    "main.1d68f021.js.map": "/portfolio/static/js/main.1d68f021.js.map"
   },
   "entrypoints": [
-    "static/css/main.a044c196.css",
-    "static/js/main.61fd6b43.js"
+    "static/css/main.c4bbf286.css",
+    "static/js/main.1d68f021.js"
   ]
 }
